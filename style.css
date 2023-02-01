@@ -107,7 +107,7 @@ p{
 
 #navbar.navbar--dark{
     background-color: var(--color-pink);
-    padding: 8px;
+    padding: 3px;
 }
 
 .navbar__menu {
@@ -248,7 +248,7 @@ section{
     font-size: var(--font-small);
 }
 
-job__peridon{
+.job__period{
     font-size: var(--font-micro);
 }
 

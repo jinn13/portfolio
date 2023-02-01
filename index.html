@@ -22,7 +22,7 @@
             <i class="fab fa-diaspora"></i>
             <a href="#">Jin</a>
         </div>
-        <div class="navbar_menu">
+        <div class="navbar__menu">
             <ul class="navbar__menu">
                 <li class="navbar__menu__item active">Home</li>
                 <li class="navbar__menu__item">Skills</li>
@@ -31,7 +31,13 @@
                 <li class="navbar__menu__item">Contact</li>
             </ul>
         </div>
+        <!-- Toggle button -->
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
     </nav>
+
+
     <!-- Home -->
     <section id="home">
         <img src="imgs/profile.jpg" alt="Jin's profile photo" class="home__avatar">
@@ -157,45 +163,48 @@
 
     </section>
     <!-- Work -->
-    <section id="work">
-        <h1>My work</h1>
-        <h3>Projects</h3>
-        <div class="work__categories">
-            <button class="category__btn active">
-                All<span class="category__count">3</span>
-            </button>
-            <button class="category__btn">
-                Front-end<span class="category__count">1</span>
-            </button>
-            <button class="category__btn">
-                Back-end<span class="category__count">2</span>
-            </button>
+    <section id="work" class="section">
+        <div class="section__container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <button class="category__btn active">
+                    All<span class="category__count">3</span>
+                </button>
+                <button class="category__btn">
+                    Front-end<span class="category__count">1</span>
+                </button>
+                <button class="category__btn">
+                    Back-end<span class="category__count">2</span>
+                </button>
+            </div>
+    
+            <div class="work__projects">
+                <a href="https://github.com/jinn13/Final-Project" class="project" target="blank">
+                    <img src="./imgs/4Earth.jpg" alt="" class="project__img">
+                    <div class="project__description">
+                        <h3>4Earth</h3>
+                        <span>Side project with Java and HTML, CSS, Javascript</span>
+                    </div>
+                </a>
+    
+                <a href="https://github.com/jinn13/Semi-Project" class="project" target="blank">
+                    <img src="./imgs/Ucamping.jpg" alt="" class="project__img">
+                    <div class="project__description">
+                        <h3>Ucamping</h3>
+                        <span>Side project with Java and HTML, CSS, Javascript</span>
+                    </div>
+                </a>
+                <a href="https://github.com/jinn13/dwitter" class="project" target="blank">
+                    <img src="./imgs/Dwitter.jpg" alt="" class="project__img">
+                    <div class="project__description">
+                        <h3>Dwitter</h3>
+                        <span>Toy project with React, HTML, CSS, Javascript</span>
+                    </div>
+                </a>
+            </div>
         </div>
-
-        <div class="work__projects">
-            <a href="https://github.com/jinn13/Final-Project" class="project" target="blank">
-                <img src="./imgs/4Earth.jpg" alt="" class="project__img">
-                <div class="project__description">
-                    <h3>4Earth</h3>
-                    <span>Side project with Java and HTML, CSS, Javascript</span>
-                </div>
-            </a>
-
-            <a href="https://github.com/jinn13/Semi-Project" class="project" target="blank">
-                <img src="./imgs/Ucamping.jpg" alt="" class="project__img">
-                <div class="project__description">
-                    <h3>Ucamping</h3>
-                    <span>Side project with Java and HTML, CSS, Javascript</span>
-                </div>
-            </a>
-            <a href="https://github.com/jinn13/dwitter" class="project" target="blank">
-                <img src="./imgs/Dwitter.jpg" alt="" class="project__img">
-                <div class="project__description">
-                    <h3>Dwitter</h3>
-                    <span>Toy project with React, HTML, CSS, Javascript</span>
-                </div>
-            </a>
-        </div>
+       
     </section>
     <!-- Testimonials -->
     <!-- <section id="testimonials">

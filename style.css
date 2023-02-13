@@ -458,7 +458,8 @@ section{
 
 .contact__title,
 .contact__email,
-.contact__rights{
+.contact__rights, 
+.contact__phone{
     color: var(--color-white);
 }
 

@@ -91,9 +91,10 @@ p{
     margin: 4px 0;
 }
 
-.fa-thin, .fa-solid, .fa-brands{
+.fa-thin, .fa-solid, .fa-brands, .fa-regular, .fa-light{
     font-family: "Font Awesome 5 Free";
     font-weight: 600;
+    font-style: normal;
 }
 
 /* Navbar */
@@ -458,9 +459,12 @@ section{
 
 .contact__title,
 .contact__email,
-.contact__rights, 
 .contact__phone{
     color: var(--color-white);
+}
+
+.contact__rights{
+    color: var(--color-dark-pink);
 }
 
 .contact__title{
